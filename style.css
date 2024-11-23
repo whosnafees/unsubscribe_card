@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(252, 252, 252);    
+    display: grid;
+    place-items: center;    
+    min-height: 100vh;
+}
+
+.card
+{
+    background-color: white;
+    padding: 20px 30px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius:12px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+.content h1
+{
+    font-family: "Geist", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgba(151, 151, 151, 1);
+    margin: 18px 0px;
+}
+
+.tag
+{
+    background-color: rgba(246, 246, 246, 1);
+    border: 1px solid rgba(235, 235, 235, 1);
+    display: inline-block;
+    padding: 5px 7px;
+    border-radius: 6px;
+    margin-top:40px;
+    font-size: 15px;
+    font-family: "Geist Mono", serif;
+}
+
+.logo_box
+{
+    border: 1px solid rgb(229, 229, 229);
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.footer
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Geist", sans-serif;
+    font-weight: 300;  
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+button
+{   
+
+    font-family: "Geist", sans-serif;
+    font-weight: 300;  
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 40px;
+    margin-left: 80px;
+}
+span
+{
+    color: black;
+}
+
+hr
+{
+    border: .9px solid rgba(235, 235, 235, 1);
+}
